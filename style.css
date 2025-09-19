@@ -1,0 +1,86 @@
+/* Aqui é o Luiz, e vou explicar como estilizei meu projeto. */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Escolhi Arial por ser simples e clara */
+    background: linear-gradient(120deg, #e0f7fa, #e8f5e9); /* Deixei um fundo em degradê suave */
+    color: #333; /* Texto em cinza escuro para melhor leitura */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center; 
+    background-color: #2e7d32; 
+    color: white; 
+    padding: 20px;
+    border-bottom: 5px solid #1b5e20; 
+}
+
+/* Subtítulos (Sementes e Fertilizantes) */
+h2 {
+    color: #2e7d32; 
+    border-left: 5px solid #66bb6a;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Estilizei os rótulos e inputs para ficarem alinhados */
+label {
+    display: block; 
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 90%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    font-size: 14px;
+}
+
+/* Botão principal */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #43a047; /* Verde vivo */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #2e7d32;
+    transform: scale(1.05);
+}
+
+/* Caixa de resultados */
+#resultado {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Texto dos resultados */
+#resultado p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Destaque para valores numéricos */
+#resultado span {
+    font-weight: bold;
+    color: #1b5e20;
+}
