@@ -2,9 +2,9 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Escolhi Arial por ser simples e clara */
-    background: linear-gradient(120deg, #e0f7fa, #e8f5e9); /* Deixei um fundo em degradê suave */
-    color: #333; /* Texto em cinza escuro para melhor leitura */
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(120deg, #e0f7fa, #e8f5e9); 
+    color: #333; 
     margin: 0;
     padding: 0;
 }
@@ -47,7 +47,7 @@ button {
     display: block;
     margin: 20px auto;
     padding: 12px 25px;
-    background-color: #43a047; /* Verde vivo */
+    background-color: #43a047; 
     color: white;
     font-size: 16px;
     border: none;
@@ -84,3 +84,4 @@ button:hover {
     font-weight: bold;
     color: #1b5e20;
 }
+
