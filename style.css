@@ -1,14 +1,12 @@
 /* Aqui é o Luiz, e vou explicar como estilizei meu projeto. */
 
-
 body {
-    font-family: Arial, Helvetica, sans-serif; 
-    background: linear-gradient(120deg, #e0f7fa, #e8f5e9); 
-    color: #333; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #e8f5e9);
+    color: #333;
     margin: 0;
     padding: 0;
 }
-
 
 h1 {
     text-align: center; 
@@ -18,7 +16,6 @@ h1 {
     border-bottom: 5px solid #1b5e20; 
 }
 
-/* Subtítulos (Sementes e Fertilizantes) */
 h2 {
     color: #2e7d32; 
     border-left: 5px solid #66bb6a;
@@ -26,7 +23,6 @@ h2 {
     margin-top: 30px;
 }
 
-/* Estilizei os rótulos e inputs para ficarem alinhados */
 label {
     display: block; 
     margin: 10px 0 5px;
@@ -42,12 +38,11 @@ input {
     font-size: 14px;
 }
 
-/* Botão principal */
 button {
     display: block;
     margin: 20px auto;
     padding: 12px 25px;
-    background-color: #43a047; 
+    background-color: #43a047;
     color: white;
     font-size: 16px;
     border: none;
@@ -56,13 +51,21 @@ button {
     transition: 0.3s;
 }
 
-/* Efeito ao passar o mouse no botão */
 button:hover {
     background-color: #2e7d32;
     transform: scale(1.05);
 }
 
-/* Caixa de resultados */
+/* Botão resetar */
+.reset-btn {
+    background-color: #e53935; 
+    margin-top: -10px;
+}
+
+.reset-btn:hover {
+    background-color: #b71c1c;
+}
+
 #resultado {
     background: white;
     border-radius: 12px;
@@ -73,15 +76,40 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Texto dos resultados */
 #resultado p {
     font-size: 18px;
     margin: 10px 0;
 }
 
-/* Destaque para valores numéricos */
 #resultado span {
     font-weight: bold;
     color: #1b5e20;
 }
+#historico {
+    background: #f9fbe7;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
+#historico h2 {
+    color: #33691e;
+    margin-bottom: 10px;
+}
+
+#historico ul {
+    list-style: none;
+    padding: 0;
+}
+
+#historico li {
+    background: #ffffff;
+    border-left: 5px solid #8bc34a;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}

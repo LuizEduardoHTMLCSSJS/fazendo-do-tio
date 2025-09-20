@@ -1,7 +1,6 @@
 <html lang="pt-BR">
 <head>
     <link rel="stylesheet" href="style.css">
-
     <meta charset="UTF-8">
     <title>Calculadora de Plantio</title>
 </head>
@@ -33,11 +32,18 @@
     <input type="number" id="precoSacoFert" placeholder="Ex: 200">
 
     <button onclick="Calcular()">Calcular</button>
+    <button onclick="Resetar()" class="reset-btn">Resetar</button>
 
     <div id="resultado">
         <p>Sementes: <span class="qtd-sementes">___</span> sacos → R$ <span class="preco-sementes">___</span></p>
         <p>Fertilizantes: <span class="qtd-fert">___</span> sacos → R$ <span class="preco-fert">___</span></p>
         <p>Custo Total do Plantio: R$ <span class="custo-total">___</span></p>
+    </div>
+
+    <!-- Histórico de cálculos -->
+    <div id="historico">
+        <h2>Histórico (máx. 2 cálculos)</h2>
+        <ul class="lista-historico"></ul>
     </div>
 
     <script src="script.js"></script>
